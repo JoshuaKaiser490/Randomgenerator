@@ -1,0 +1,44 @@
+body{
+    /*font-family: 'Times New Roman', Times, serif;*/
+    font-family: fantasy;
+    margin: 0;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3e95d1
+}
+
+h1{
+    font-size: 3em;
+    color: #1a1a1a; 
+    margin: 50px 0 30px;
+    text-align: center; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.auswahl img{
+    font-size: 3.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+
+.auswahl img:hover{
+    transform: scale(1.1);
+}
+
+#schülerAuswahl{
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    margin-top: 20px; 
+}
+
+.PD{
+    font-size: 1.2em;
+    width: 50vw;
+    text-align: center;
+}
